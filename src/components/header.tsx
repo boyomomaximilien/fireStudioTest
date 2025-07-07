@@ -11,6 +11,7 @@ import {
   SheetContent,
   SheetTrigger,
   SheetClose,
+  SheetTitle,
 } from "@/components/ui/sheet";
 import { Separator } from './ui/separator';
 
@@ -65,6 +66,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px]">
+                <SheetTitle className="sr-only">Menu</SheetTitle>
                <nav className="flex flex-col gap-2 mt-8">
                   <SheetClose asChild>
                      <Link href="/" className="flex items-center gap-2 font-bold mb-4">
