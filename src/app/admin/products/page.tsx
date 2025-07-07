@@ -52,7 +52,7 @@ export default function AdminProductsPage() {
                     width={40}
                     height={40}
                     className="rounded-md object-cover"
-                    data-ai-hint="product image"
+                    data-ai-hint={product.category}
                   />
                 </TableCell>
                 <TableCell className="font-medium">{product.name}</TableCell>
